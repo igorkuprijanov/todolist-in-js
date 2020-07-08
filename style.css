@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+#mainpage{
+    width: 300px;
+    align-self: center;
+}
+p{
+    margin: 10px;
+    margin-left: 30px;
+}
+#addnew{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+#addnew>*{
+    margin: 5px
+}
+#addnew>input{
+   width: 250px;
+}
+#submit{
+    align-self: flex-end;
+    margin-left: auto;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#container>div{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.checkboxinput{
+    margin-left: auto;
+    align-self: center;
+}
+#donetasks{
+    display: flex;
+    flex-direction: column;
+}
+#donetasks>div{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    background: red;
+}
+#buttons{
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-around
+}
